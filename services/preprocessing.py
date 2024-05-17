@@ -93,6 +93,7 @@ def data_scarling(df: pd.DataFrame) -> pd.DataFrame:
 def preparing_data(df: pd.DataFrame) -> pd.DataFrame:
     df = df.drop(columns=delete_columns)
     df = input_missing_values(df=df)
+    df = fix_anomalies(df=df)
     df = categorical_encoding(df=df)
     df = data_scarling(df=df)
 
