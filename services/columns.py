@@ -46,7 +46,6 @@ outlier_columns = [
     'Total_Trans_Amt',
     'Total_Trans_Ct',
     'Dependent_count',
-    'duration', 
     'Months_Inactive_12_mon',
     'Contacts_Count_12_mon',
     'Total_Revolving_Bal',
